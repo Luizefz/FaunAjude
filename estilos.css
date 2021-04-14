@@ -78,28 +78,3 @@ button:hover{
 .pequeno{
     width: 400px;
 }
-
-.nav_links li{
-    display:inline-block;
-    padding: 0px 20px;
-}
-
-li, a, button{
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    color: #edf0f1;
-    font-size: 16px;
-}
-
-button {
-    padding: 8px 25px;
-    border-radius: 50px;
-    border-color: transparent;
-    background-color: #013c66;
-    transition: 0.3s ease 0s;
-    cursor: pointer;
-}
-
-button:hover{
-    background-color: #327baf;
-}
