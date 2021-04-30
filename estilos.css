@@ -154,8 +154,11 @@ li, a, button, p{
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     color: #edf0f1;
-    
     font-size: 16px;
+}
+
+li{
+    text-shadow: black 0.2em 0.2em 0.3em;
 }
 
 button {
