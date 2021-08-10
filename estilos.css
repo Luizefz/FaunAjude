@@ -23,6 +23,15 @@
         margin-right: auto;  
     }
     
+    .borda_instituicoes{
+        width: 97%;
+        height: auto;
+        border-radius: 30px;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.9);   
+        margin-left: auto;
+        margin-right: auto;  
+    }
+
     p{
         font-family: 'Poppins', sans-serif;
         text-decoration: none;
@@ -68,6 +77,15 @@
         margin-right: auto;
         box-shadow: 5px 5px 15px rgba(0,0,0,0.9);     
     }
+
+    .borda_instituicoes{
+        width: 335px;
+        height: auto;
+        border-radius: 30px;
+        margin-left: auto; 
+        margin-right: auto;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.9);     
+    }
     
     p{
         font-family: 'Poppins', sans-serif;
@@ -108,6 +126,14 @@
     .borda{
         width: 340px;
         height: 550px;
+        margin-left: auto; 
+        margin-right: auto;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.9);    
+    }
+
+    .borda_instituicoes{
+        width: 340px;
+        height: auto;
         margin-left: auto; 
         margin-right: auto;
         box-shadow: 5px 5px 15px rgba(0,0,0,0.9);    
@@ -191,7 +217,7 @@ header{
     align-items: center;
     text-decoration: none;
     padding: 20px 3%;
-    position:sticky;
+    position:static;
     top: 0;
 }
 
@@ -225,6 +251,7 @@ li{
 button {
     padding: 8px 25px;
     border-radius: 50px;
+    margin-bottom: 3%;
     border: none;
     border-color: transparent;
     background-color: #013c66;
@@ -241,7 +268,7 @@ li:hover{
     transition: 0.3s ease 0s;
 }
 
-h1, h2, h5{
+h1, h2, h5, h4{
     font-family: 'Poppins', sans-serif;
     color: #edf0f1;
 }
