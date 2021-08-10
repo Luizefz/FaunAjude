@@ -336,6 +336,10 @@ body::-webkit-scrollbar-thumb{
     background-color: #3b678b;
 }
 
+.marrom_card{
+    background-color: #382c13;
+}
+
 .regiao_borda{
 
     border-color: #edf0f1;
